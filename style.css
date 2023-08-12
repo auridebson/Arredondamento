@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+input {
+    border-radius: 6px;
+    width: 150px;
+    height: 25px;
+}
+
+.botoes {
+    width: 300px;
+    background-color: rgb(32, 15, 13);
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.formularios {
+    width: 350px;
+    background-color: rgba(114, 61, 61, 0.443);
+    padding: 10px;
+    border-radius: 6px;
+}
