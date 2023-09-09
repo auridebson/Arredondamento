@@ -31,17 +31,24 @@
                 <p>
                     <label for="selCategoria">Categoria:</label>
                     <select name="selCategoria" id="selCategoria">
-                        <option disabled>Selecione uma opção</option>
-                        <option value="faixaBranca"></option>
-                        <option value="faixaAmarela"></option>
-                        <option value="faixaLaranja"></option>
-                        <option value="faixaVerde"></option>
-                        <option value="faixaAzul"></option>
-                        <option value="faixaMarrom"></option>
+                        <option selected disabled>Selecione uma opção</option>
+                        <option value="faixaBranca">Faixa Branca</option>
+                        <option value="faixaAmarela">Faixa Amarela</option>
+                        <option value="faixaLaranja">Faixa Laranja</option>
+                        <option value="faixaVerde">Faixa Verde</option>
+                        <option value="faixaAzul">Faixa Azul</option>
+                        <option value="faixaMarrom">Faixa Marrom</option>
                     </select>
+                </p>
+                <p>
+                    <button id="btnEnviar" onclick="coletar()">Enviar</button>
                 </p>
 
             </div>
+
+        </div>
+
+        <div id="container-resultado">
 
         </div>
 
