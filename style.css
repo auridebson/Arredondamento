@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: gray;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -16,7 +15,7 @@ input {
 
 .botoes {
     width: 200px;
-    background-color: #fbcf3b;
+    /* background-color: #fbcf3b; */
     padding: 10px;
     border-radius: 6px;
     color: white;
@@ -24,7 +23,7 @@ input {
 
 .formularios {
     width: 350px;
-    background-color: #f8e29a;
+    /* background-color: #f8e29a; */
     padding: 10px;
     border-radius: 6px;
 }

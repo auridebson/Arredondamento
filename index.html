@@ -17,12 +17,32 @@
 
     <section>
 
-        <div id="divFormulario" class="formularios">
-            <p><strong>Numero 2 será dividido pelo número 1</strong></p>
-            <p>Número 1: <input type="number" name="" id="num1"></p>
-            <p>Número 2: <input type="number" name="" id="num2"></p>
-            <p>Resultado: <input type="number" name="" id="numResultado"></p>
-            <p><button id="btnEnviar" class="botoes" onclick="arredonda()">Enviar</button></p>
+        <div id="container-master" class="container-master">
+
+            <div id="container-case1">
+                <p>
+                    <label for="nomeAluno">Nome:</label>
+                    <input type="text" name="nomeAluno" id="nomeAluno">
+                </p>
+                <p>
+                    <label for="datNascimento">Data Nascimento:</label>
+                    <input type="date" name="datNascimento" id="datNascimento">
+                </p>
+                <p>
+                    <label for="selCategoria">Categoria:</label>
+                    <select name="selCategoria" id="selCategoria">
+                        <option disabled>Selecione uma opção</option>
+                        <option value="faixaBranca"></option>
+                        <option value="faixaAmarela"></option>
+                        <option value="faixaLaranja"></option>
+                        <option value="faixaVerde"></option>
+                        <option value="faixaAzul"></option>
+                        <option value="faixaMarrom"></option>
+                    </select>
+                </p>
+
+            </div>
+
         </div>
 
     </section>
