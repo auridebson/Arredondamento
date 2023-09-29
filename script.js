@@ -1,7 +1,8 @@
-const nomeAluno = document.getElementById("nomeAluno")
-const faixaAluno = document.querySelector("faixaAluno")
-const datNascimento = document.querySelector("datNascimento")
 
-function coletar() {
-    alert(nomeAluno.textContent)
+const btnAciona = document.querySelector(".btnAciona")
+
+btnAciona.addEventListener("click", mostraMsg)
+
+function mostraMsg() {
+    alert("Mostrando mensagem")
 }
