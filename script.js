@@ -9,7 +9,13 @@ const infoData = () => alert(`A data coletada nessa Arrow Function é\n${dt.getD
 const infoNome = () => {
     return containerName.innerHTML += nomeUser + '<br>'
 }
+const person = {
+    name: "Auridebson",
+    age: 46,
+    city: "Fortaleza"
+}
 
+const mostraNome = () => containerName.innerHTML = `${person.name} -  ${person.age} - ${person.city}`
 
 function alertaDF() {
     alert("Mostrando mensagem\nCom Declaração de função")
@@ -17,4 +23,4 @@ function alertaDF() {
 
 
 
-btnAciona.addEventListener("click", infoNome)
+btnAciona.addEventListener("click", mostraNome)
