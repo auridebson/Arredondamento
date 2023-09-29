@@ -21,6 +21,15 @@ function alertaDF() {
     alert("Mostrando mensagem\nCom Declaração de função")
 }
 
+let soma = (a,b) => a + b 
+
+const findMaxNumber = numeros => Math.max(...numeros)
+
+const checkPair = numero => (numero % 2 == 0 ? "Par" : "Impar")
+
+const checkImpar = numero => (numero % 2 == 0 ? "Par":"Impar")
+
+const countText = (textoo) => textoo.replace(/ \s/g,"").length;
 
 
-btnAciona.addEventListener("click", mostraNome)
+btnAciona.addEventListener("click", console.log(countText("Olá meu lindo Mundo")))
