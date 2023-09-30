@@ -29,7 +29,9 @@ const checkPair = numero => (numero % 2 == 0 ? "Par" : "Impar")
 
 const checkImpar = numero => (numero % 2 == 0 ? "Par":"Impar")
 
-const countText = (textoo) => textoo.replace(/ \s/g,"").length;
+const countText = (textoo) => textoo.replace(/\s/g,"").length;
+
+const num = numero => (numero > 0 ? "Positivo" : "Neutro")
 
 
-btnAciona.addEventListener("click", console.log(countText("Olá meu lindo Mundo")))
+btnAciona.addEventListener("click", console.log(num(0)))
