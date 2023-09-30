@@ -21,7 +21,6 @@ function alertaDF() {
     alert("Mostrando mensagem\nCom Declaração de função")
 }
 
-let soma = (a,b) => a + b 
 
 const findMaxNumber = numeros => Math.max(...numeros)
 
@@ -35,5 +34,4 @@ const num = numero => (numero > 0 ? "Positivo" : "Neutro")
 
 const numRandom = numero => Math.random(numero)
 
-
-btnAciona.addEventListener("click", console.log(numRandom(33)))
+btnAciona.addEventListener("click", alert("fsf"))
