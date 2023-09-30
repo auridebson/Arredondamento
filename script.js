@@ -33,5 +33,7 @@ const countText = (textoo) => textoo.replace(/\s/g,"").length;
 
 const num = numero => (numero > 0 ? "Positivo" : "Neutro")
 
+const numRandom = numero => Math.random(numero)
 
-btnAciona.addEventListener("click", console.log(num(0)))
+
+btnAciona.addEventListener("click", console.log(numRandom(33)))
