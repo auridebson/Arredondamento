@@ -10,7 +10,7 @@ const infoNome = () => {
     return containerName.innerHTML += nomeUser + '<br>'
 }
 const person = {
-    name: "Auridebson",
+    name: "Auridebson", 
     age: 46,
     city: "Fortaleza"
 }

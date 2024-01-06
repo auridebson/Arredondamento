@@ -11,4 +11,4 @@ numeros += input("Digite a quarta nota: ")
 
 
 
-print(min(numeros))
+print(min(numeros)) 
